@@ -1,0 +1,56 @@
+html,
+body {
+    height: 100%;
+    background-color: #0f121f;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.card-content {
+    padding: 10px 10px 0px 0px;
+}
+
+.card {
+    width: 30vw;
+}
+
+.card-title {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.card-desc {
+    font-size: 1vw;
+}
+
+.card-footer-desc {
+    font-size: 1vw;
+}
+
+.card-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.icon-card-1 {
+    padding: 10px 20px;
+    border: 2px solid #f5a099;
+    box-shadow: 1px 2px 2px 1px #efefef;
+    cursor: pointer;
+}
+
+.icon-card-2 {
+    padding: 10px 20px;
+    border: 2px solid #aed3ee;
+    box-shadow: 1px 2px 2px 1px #efefef;
+    cursor: pointer;
+}
+
+.card-icon-desc {
+    font-size: bold;
+    font-family: sans-serif;
+    font-size: 1.3vw;
+}
