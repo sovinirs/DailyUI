@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <link
+            href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap"
+            rel="stylesheet"
+        />
+
+        <title>Day 2 | Tailwind CSS</title>
+    </head>
+    <body class="h-screen">
+        <div
+            class="h-full bg-red-800 flex justify-center items-center text-white"
+        >
+            <div class="bg-black md:px-24 px-5 md:py-20 py-10 rounded-lg">
+                <div class="grid grid-cols-2 md:gap-10 gap-2">
+                    <div>
+                        <div class="title-text">
+                            Basic
+                        </div>
+                        <div class="mt-3 sub-text">
+                            Free
+                        </div>
+                        <div class="sub-text">
+                            3,000 monthly visitors
+                        </div>
+                        <div class="md:mt-10 mt-5">
+                            <ul class="list-disc md:ml-4 ml-3 sub-text">
+                                <li>Limited reports</li>
+                                <li>Unlimited projects</li>
+                                <li>Data storage for 1 year</li>
+                            </ul>
+                        </div>
+                        <div class="text-center mt-10">
+                            <button
+                                class="bg-black hover:bg-red-900 text-red-900 hover:text-white py-2 md:px-12 px-5 border border-red-900 hover:border-transparent rounded sub-text-button"
+                            >
+                                Start Now
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="title-text">
+                            Pro
+                        </div>
+                        <div class="mt-3 sub-text">
+                            $19 / month
+                        </div>
+                        <div class="sub-text">
+                            10,000 monthly visitors
+                        </div>
+                        <div class="md:mt-10 mt-5 sub-text">
+                            <ul class="list-disc md:ml-4 ml-3">
+                                <li>Unlimited reports</li>
+                                <li>15-days free trial</li>
+                                <li>Data storage for 3 years</li>
+                            </ul>
+                        </div>
+                        <div class="text-center mt-10">
+                            <button
+                                class="bg-red-900 hover:bg-transparent text-white hover:text-red py-2 md:px-12 px-5 border border-red-900 hover:border-white rounded sub-text-button"
+                            >
+                                Try it
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
