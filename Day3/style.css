@@ -1,0 +1,46 @@
+html,
+body {
+    height: 100%;
+    background-color: #9ccdf8;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.neo-dialogue {
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 15px;
+}
+
+.name {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.position {
+    font-size: 8px;
+    font-family: sans-serif;
+}
+
+.card {
+    height: 15rem;
+    width: 35rem;
+}
+
+.btn-dark {
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.btn {
+    width: 5.6rem;
+    height: 2.5rem;
+}
+
+.col {
+    width: 6rem;
+}
