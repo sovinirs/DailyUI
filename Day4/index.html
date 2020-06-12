@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <link
+            href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+            rel="stylesheet"
+        />
+
+        <title>Day 4 | Tailwind CSS</title>
+    </head>
+    <body class="h-screen">
+        <div
+            class="main-background h-full flex justify-center items-center text-white"
+        >
+            <div class="main-card md:px-12 px-6 py-6 shadow-md rounded">
+                <div class="mb-6 text-2xl text-white font-semi-bold">
+                    Age
+                </div>
+                <!-- Age Columns Section -->
+                <div class="grid grid-cols-5 md:gap-6 gap-3">
+                    <!-- Column 1 -->
+                    <div class="w-12 h-32">
+                        <div
+                            class="column_1_text mb-2 text-white text-xs text-center font-semi-bold"
+                        >
+                            27.5%
+                        </div>
+                        <div class="column-main_1 w-12 h-24 rounded">
+                            <div
+                                class="w-full column-sub_1 rounded-b-none rounded"
+                            ></div>
+                        </div>
+                        <div
+                            class="mt-2 text-white text-xs text-center font-bold"
+                        >
+                            18-24
+                        </div>
+                    </div>
+                    <!-- Column 2 -->
+                    <div class="w-12 h-32">
+                        <div
+                            class="column_2_text mb-2 text-white text-xs text-center font-semi-bold"
+                        >
+                            33.5%
+                        </div>
+                        <div class="column-main_2 w-12 h-24 rounded">
+                            <div
+                                class="w-full column-sub_2 rounded-b-none rounded"
+                            ></div>
+                        </div>
+                        <div
+                            class="mt-2 text-white text-xs text-center font-bold"
+                        >
+                            25-34
+                        </div>
+                    </div>
+                    <!-- Column 3 -->
+                    <div class="w-12 h-32">
+                        <div
+                            class="column_3_text mb-2 text-white text-xs text-center font-semi-bold"
+                        >
+                            67.5%
+                        </div>
+                        <div class="column-main_3 w-12 h-24 rounded">
+                            <div
+                                class="w-full column-sub_3 rounded-b-none rounded"
+                            ></div>
+                        </div>
+                        <div
+                            class="mt-2 text-white text-xs text-center font-bold"
+                        >
+                            35-44
+                        </div>
+                    </div>
+                    <!-- Column 4 -->
+                    <div class="w-12 h-32">
+                        <div
+                            class="column_4_text mb-2 text-white text-xs text-center font-semi-bold"
+                        >
+                            30.5%
+                        </div>
+                        <div class="column-main_4 w-12 h-24 rounded">
+                            <div
+                                class="w-full column-sub_4 rounded-b-none rounded"
+                            ></div>
+                        </div>
+                        <div
+                            class="mt-2 text-white text-xs text-center font-bold"
+                        >
+                            45-54
+                        </div>
+                    </div>
+                    <!-- Column 5 -->
+                    <div class="w-12 h-32">
+                        <div
+                            class="column_5_text mb-2 text-white text-xs text-center font-semi-bold"
+                        >
+                            90.5%
+                        </div>
+                        <div class="column-main_5 w-12 h-24 rounded">
+                            <div
+                                class="w-full column-sub_5 rounded-b-none rounded"
+                            ></div>
+                        </div>
+                        <div
+                            class="mt-2 text-white text-xs text-center font-bold"
+                        >
+                            65+
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="text-animation mt-10 text-center text-xs font-thin text-white font-bold"
+                >
+                    100% of total sessions
+                </div>
+            </div>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+</html>

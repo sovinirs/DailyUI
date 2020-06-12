@@ -1,0 +1,56 @@
+.main-background {
+    background-color: #3f3434;
+}
+
+.main-card {
+    background-color: #493e3e;
+}
+
+/* Column 1 */
+.column-main_1 {
+    background-color: #d5634e;
+}
+
+.column-sub_1 {
+    background-color: #3f3434;
+}
+
+/* Column 2 */
+.column-main_2 {
+    background-color: #d5634e;
+}
+
+.column-sub_2 {
+    height: calc(100% - 33.5%);
+    background-color: #3f3434;
+}
+
+/* Column 3 */
+.column-main_3 {
+    background-color: #d5634e;
+}
+
+.column-sub_3 {
+    height: calc(100% - 67.5%);
+    background-color: #3f3434;
+}
+
+/* Column 4 */
+.column-main_4 {
+    background-color: #d5634e;
+}
+
+.column-sub_4 {
+    height: calc(100% - 30.5%);
+    background-color: #3f3434;
+}
+
+/* Column 5 */
+.column-main_5 {
+    background-color: #d5634e;
+}
+
+.column-sub_5 {
+    height: calc(100% - 90.5%);
+    background-color: #3f3434;
+}
